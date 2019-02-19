@@ -1,6 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Introduction
 
-## Available Scripts
+This is a template frontend project integrated with ReactJS, TypeScript and Docker.
+
+## Installation
+
+Use the package manager [npm](https://www.npmjs.com/) to install this project.
+
+```bash
+npm install
+```
+
+If you want to develop in docker, you need to firstly install [docker](https://www.docker.com/).
+
+## Start development environment in local host
 
 In the project directory, you can run:
 
@@ -37,15 +49,22 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Start docker dev env
+## Start development environment in docker
 
 ### `docker-compose up -d`
 
 Pull down the docker images required and start the docker container detached in background.
+
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
