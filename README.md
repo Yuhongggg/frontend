@@ -54,22 +54,21 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Start development environment in docker
 
-### `docker-compose up -d --build`
+### `docker-compose -f docker-compose-dev.yml up -d --build`
 
 Pull down the docker images required and start the docker container detached in background.
 
-### `docker-compose stop`
+### `docker-compose -f docker-compose-dev.yml stop`
 
 Stop the running container.
 
-### `docker-compose start`
+### `docker-compose -f docker-compose-dev.yml start`
 
 Start the existing container.
 
-### `docker-compose down`
+### `docker-compose -f docker-compose-dev.yml down`
 
 Remove the docker containers.
-
 
 
 
